@@ -1,4 +1,9 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://vercel.com/docs"
+    }
+  ],
   "buildCommand": "next build"
 }
